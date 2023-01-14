@@ -16,7 +16,7 @@ The appearance is inspired by one of video tutorials in Metro UI Framework.
 * Admin and User Log-in
 
 ## Software
-Visual Studio and Bunifu.Net UI Framework.
+Visual Studio and Metro UI Framework.
 
 ## Notice
 You need Metro UI Framework in order to continue or work this project. 
