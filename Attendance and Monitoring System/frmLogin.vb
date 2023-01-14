@@ -7,11 +7,11 @@ Public Class frmLogin
     Private sqlQuery As New ExecQueryFunctions
 
     Public Sub AddLog(ByVal text As String)
-        'Dim filename As String = Application.StartupPath & "\test.log"
-        'Dim sw As StreamWriter = AppendText(filename)
+        Dim filename As String = Application.StartupPath & "\test.log"
+        Dim sw As StreamWriter = AppendText(filename)
 
-        'sw.WriteLine(Now() & " " & text)
-        'sw.Close()
+        sw.WriteLine(Now() & " " & text)
+        sw.Close()
     End Sub
 
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
